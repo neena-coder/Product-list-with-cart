@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Product List with Cart</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <h2>Desserts</h2>
+
+        <ul class="items">
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-waffle-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="details">
+              <p>Waffle</p>
+              <p style="font-weight: bolder" id="mainItem">
+                Waffle with Berries
+              </p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">6.50</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-creme-brulee-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Crème Brûlée</p>
+              <p style="font-weight: bolder">Vanilla Bean Crème Brûlée</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">7.00</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-macaron-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Macaron</p>
+              <p style="font-weight: bolder">Macaron Mix of Five</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">8.00</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-tiramisu-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Tiramisu</p>
+              <p style="font-weight: bolder">Classic Tiramisu</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">5.50</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-baklava-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Baklava</p>
+              <p style="font-weight: bolder">Pistachio Baklava</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">4.00</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-meringue-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Pie</p>
+              <p style="font-weight: bolder">Lemon Meringue Pie</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">5.00</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-cake-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Cake</p>
+              <p style="font-weight: bolder">Red Velvet Cake</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">4.50</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-brownie-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Brownie</p>
+              <p style="font-weight: bolder">Salted Caramel Brownie</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">4.50</span>
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="all">
+              <img
+                src="./assets/images/image-panna-cotta-desktop.jpg"
+                alt="image of waffle"
+                class="image"
+              />
+              <div class="buttonDiv">
+                <button id="btn" class="btn">
+                  <img src="./assets/images/icon-add-to-cart.svg" alt="cart" />
+                  Add to Cart
+                </button>
+
+                <div class="btn" id="clicked">
+                  <p id="minus" class="click">-</p>
+                  <p id="count">0</p>
+                  <p id="plus" class="click">+</p>
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <p>Panna Cotta</p>
+              <p style="font-weight: bolder">Vanilla Panna Cotta</p>
+              <p style="font-weight: bolder" id="price">
+                $<span id="amount">6.50</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </main>
+
+      <section>
+        <h3>Your Cart (<span id="cartCount">0</span>)</h3>
+
+        <div class="image" id="emptyCart">
+          <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+        </div>
+      </section>
+      
+      
+    </div>
+
+    <!-- 
+
+    Your Cart (Quantity)
+  Your added items will appear here -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
